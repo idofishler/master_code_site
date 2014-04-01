@@ -1,0 +1,23 @@
+{
+  "name": "master_code_site",
+  "version": "0.0.0",
+  "description": "SAP IMS Master Code riddle",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idofishler/master_code_site.git"
+  },
+  "author": "Erez Neiderman",
+  "dependencies": {
+    "filed": "0.1.0",
+    "logfmt": "~1.1.2"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/idofishler/master_code_site/issues"
+  }
+}

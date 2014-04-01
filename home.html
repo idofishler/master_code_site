@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div style="position:relative left:0; top:0;">
+
+<img src="pic.jpg" style="position:absolute; width: 100%; height: 100%; top:0; left:0;"/>
+    <img src="icon.png" style="position:absolute; top:0; left:0;"/>
+	<form style="position:absolute; top:600px; left:600px;">
+	
+<p><font size="6">Fill in the answer:</font>
+ <input type="text" name="asnwer" style="position:absolute; font-size:20pt; height:25px;" size="35"><br></p>
+ <input type="button" name ="answer" value="Submit" style="height:35px; width:120px;" onclick="checkAnswer(this.form)">
+</form> 
+</div>
+<SCRIPT TYPE="text/javascript">
+function checkAnswer(form)
+{
+if(form.asnwer.value != "null")
+{
+  alert("Wrong, try again");
+  form.asnwer.value = "";
+}
+else
+{
+	window.location = 'good.html';
+}
+};
+
+</SCRIPT>
+</body>
+</html>
